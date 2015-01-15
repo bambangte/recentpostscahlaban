@@ -28,7 +28,7 @@ function tampilkankomentar(json) {
 
 		document.write('<li>');
 		document.write('<b><a rel="nofollow" href="' + urlkomentar + '">' + entry.author[0].name.$t + '</a> Said," </b> ');
-		document.write('<span class="isi">' + isikomentar + '...</span>');
+		document.write('<span class="isi">' + isikomentar + '</span>');
 		document.write('</li>');
 	}
 	document.write('</ul></div>');
